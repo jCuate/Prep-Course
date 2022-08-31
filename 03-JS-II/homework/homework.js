@@ -117,11 +117,12 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Código:
-  if ((Math.floor(numero)/numero ) === 1) {
-    return true;
-  } else {
-    return false;
-  }
+  return numero % 1 === 0;
+  //if ((Math.floor(numero)/numero ) === 1) {
+  //  return true;
+  //} else {
+    //return false;
+  //}
 }
 
 function fizzBuzz(numero) {
